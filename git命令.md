@@ -15,9 +15,15 @@
        注意： 如果要账号和密码，网上搜索
     3. 如果**本地有变化**，推送到远程
        * git add .
-       * git commint -m "updata xxx"
+       * git commit -m "updata xxx"
        * git push origin dev
     4. **远程有变化**，拉取到本地
+       * git pull origin master (master/或者dev都行)
     5. 新员工克隆远程仓库到本地
+       git clone 地址.git就可以 (目前只有master分支)
+       git checkout -b dev origin/dev (不是将远程dev分支拉取到本地，而是克隆时候已经下载了，而没有创建分支)
+     常见命令：
+     git branch 查找分支
+     git checkout dev 切换分支
 -----------------------------------------------
    
